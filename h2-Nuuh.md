@@ -94,3 +94,13 @@ toinen paketti on tpLinkin mesh verkon jotain omaa viestittelyä.
 paketit 3-6 on tullut, koska avasin tätä varten twitch.com sivuston ja tässä oma kone näyttäisi kyselevän dnssältä ositetta ja tähän tulee heti perään vastaus takaisin.
 Paketit 7-17 taas liittyvät siihen kuinka tcp protokollalla aloitetaan kättely ja client lähettää aloituspyynnön twitchille, ja sieltä tulee myöntävä vastaus ja client yhteyden.
 paketin 10 kohdalla siirrytään tls v1.3 protokollaan jolla lähetetään niin sanottu client hello johon palvelin vastaa ja tämän jälkeen kaikki liikenne salataan.
+
+## Lähteet
+
+Karvinen, T. 2026. Verkkoon tunkeutuminen ja tiedustelu. Verkkosivu. Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/. Luettu: 1.11.2026
+
+Karvinen, T. 2025. Wireshark - Getting Started. Verkkosivu. Luettavissa: (https://terokarvinen.com/wireshark-getting-started/). Luettu: 1.11.2026
+
+Karvinen, T. 2025. Network Interface Names on Linux. Verkkosivu. Luettavissa: (https://terokarvinen.com/network-interface-linux/). Luettu: 1.11.2026
+
+Karvinen, T. 2026. Verkkoon tunkeutuminen ja tiedustelu. Luento 27.10.2026. Haaga-Helia ammattikorkeakoulu. Helsinki.
