@@ -11,7 +11,7 @@ Aloitin tehtävän tarkastamalla että paketit on päivitetty komennolla `sudo a
 
 ## tehtävä c)
 
-Tehtävän näytetiedoston sai avattua komennolla `rtl_433 Converted_433.92M_2000k.cs8`. Tiedostosta voi nähdä aina 3 signaalia samalla aikaleimalla kerrallaan, joissa kaikissa on saman laitteen id `8785315`. Oleellinen tieto löytyy oikeastaan aina kolmikon ekasta kohdasta, jossa laitteen malli on nimellä `KlikAanKlikUit-Switch`. Tästä voidaan nähdä command kohdassa off, eli luultavasti on painettu jostain kaukosäätimestä sammutusnappia. Sama on toistettu näytteessä 3 kertaa peräkkäin. Alla vielä kuva tästä kolmikosta ja nuolilla merkitty mainitut asiat.
+Tehtävän näytetiedoston sai avattua komennolla `rtl_433 Converted_433.92M_2000k.cs8`. Tiedostosta voi nähdä aina 3 signaalia samalla aikaleimalla kerrallaan, joissa kaikissa on saman laitteen id `8785315`. Oleellinen tieto löytyy oikeastaan aina kolmikon ekasta kohdasta, jossa laitteen malli on nimellä `KlikAanKlikUit-Switch`. Tästä voidaan nähdä command kohdassa off, eli luultavasti on painettu jostain kaukosäätimestä sammutusnappia. Sama on toistettu näytteessä 4 kertaa peräkkäin. Alla vielä kuva tästä kolmikosta ja nuolilla merkitty mainitut asiat.
 
 <img width="937" height="343" alt="image" src="https://github.com/user-attachments/assets/26630174-6fcf-41a2-9a23-a676fefe1925" />
 
