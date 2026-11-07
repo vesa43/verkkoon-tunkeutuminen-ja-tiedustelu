@@ -1,6 +1,16 @@
 ## tehtävä x)
 
+Hubacek 2019: Universal Radio Hacker SDR Tutorial on 433 MHz radio plugs: (https://youtu.be/sbqMqb6FVMY?t=199)
+- Taajuus voidaan etsiä URH:n spectrum analyzeri työkalulla.
+- Signaali saadaan nauhoitettua Record signal osiosta.
+- Videossa modulaatioksi valittiin ASK, jolla työkalu osaa itse määrittää muut parametrit.
+- Signal view: demodulated tilalla voidaan nähdä bitit selkeästi kuvaajasta
 
+Cornelius 2022: (https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html)
+- Lämpötila anturin signaali saatiin tallennettua käyttämällä rtl-433 softaa.
+- rtl_433 osasi suoraan purkaa signaalin ja antaa oikeita mittaus tuloksia ilman kosteudelle ja lämpötilalle.
+- URH:n avulla signaalista saatiin mitattua aika jonka välein laite lähettää dataa (56,75s)
+- Jotta data saatiin muutettua luettaviksi biteiksi, piti ensin luoda oma decode sääntö, jonka avulla signaali saadaan haluttuun muotoon
 
 ## tehtävä b)
 
@@ -34,4 +44,13 @@ Ultimate Radio Hackerin sai asennettua asentamalla ensin pipx paketin komennolla
 
 ### f)
 
-Tiedoston nimestä näkee jo, että kyseessä on näyte taajuudella `433.912MHz` ja Sample raten asettaa `2.0M` niin ohjelmassa näkyy näytteen pituutena `2.75s`
+Tiedoston nimestä näkee jo, että kyseessä on näyte taajuudella `433.912MHz` ja jos sample raten asettaa `2.0M` niin ohjelmassa näkyy näytteen pituutena `2.75s`. En saanut selville milloin näyte on otettu.
+
+### g)
+
+Kun näytteen antoi URH ja painoi painiketta "Autodetect parameters, pystyttiin löytämään, että yksi bitti on noin 260 mikrosekuntia tai noin 520 samplea.
+
+<img width="730" height="432" alt="image" src="https://github.com/user-attachments/assets/a5ddd1d8-1495-47a2-a385-2e13128bb1a5" />
+
+Vertauksena 260mikrosekuntia on sama kuin 0,26millisekuntia, eli vielä 4 kertaa pienempi kuin vaikka joissain online peleissä, joissa serveri sijaitsee hyvin lähellä ja ping voi olla (1ms).
+Huippunopealla peli 720hz pelinäytölläkin menee noin 1,39ms päivittää uusi kuva ruudulle.
