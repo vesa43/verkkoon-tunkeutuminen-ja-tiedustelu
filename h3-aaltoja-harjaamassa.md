@@ -6,7 +6,7 @@ Hubacek 2019: Universal Radio Hacker SDR Tutorial on 433 MHz radio plugs: (https
 - Videossa modulaatioksi valittiin ASK, jolla työkalu osaa itse määrittää muut parametrit.
 - Signal view: demodulated tilalla voidaan nähdä bitit selkeästi kuvaajasta
 
-Cornelius 2022: (https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html)
+Cornelius 2022: Decode 433.92 MHz weather station data: (https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html)
 - Lämpötila anturin signaali saatiin tallennettua käyttämällä rtl-433 softaa.
 - rtl_433 osasi suoraan purkaa signaalin ja antaa oikeita mittaus tuloksia ilman kosteudelle ja lämpötilalle.
 - URH:n avulla signaalista saatiin mitattua aika jonka välein laite lähettää dataa (56,75s)
