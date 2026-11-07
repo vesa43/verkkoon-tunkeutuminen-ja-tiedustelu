@@ -36,6 +36,8 @@ Tämän jälkeen tiedoston sai ajettua komennolla `rtl_433 tiedoston nimi päät
 
 <img width="760" height="367" alt="image" src="https://github.com/user-attachments/assets/cd3f82b4-2f0a-4edf-a294-ebcb092d804e" />
 
+Näyte näyttää olevan tismalleen sama kuten edellisessä joten analyysi edellisessä tehtävässä.
+
 ## tehtävä e)
 
 Ultimate Radio Hackerin sai asennettua asentamalla ensin pipx paketin komennolla `sudo apt install pipx` ja URH:n komennolla `pipx install urh`
@@ -54,3 +56,10 @@ Kun näytteen antoi URH ja painoi painiketta "Autodetect parameters, pystyttiin 
 
 Vertauksena 260mikrosekuntia on sama kuin 0,26millisekuntia, eli vielä 4 kertaa pienempi kuin vaikka joissain online peleissä, joissa serveri sijaitsee hyvin lähellä ja ping voi olla (1ms).
 Huippunopealla peli 720hz pelinäytölläkin menee noin 1,39ms päivittää uusi kuva ruudulle.
+
+Lähteet:
+Karvinen, T. 2026. Verkkoon tunkeutuminen ja tiedustelu. Verkkosivu. Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/. Luettu: 8.11.2026
+
+Hubacek 2019. Universal Radio Hacker SDR Tutorial on 433 MHz radio plugs. Video. Katsottavissa: (https://youtu.be/sbqMqb6FVMY)
+
+Cornelius 2022. Decode 433.92 MHz weather station data. Verkkosivu. Luettavissa: https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html. Luettu: 8.11.2026
